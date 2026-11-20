@@ -2,20 +2,10 @@
 
 Ideas and known gaps that are not in the current release.
 
-## Next
-
-- **Show the last selection.** An optional, greyed-out, non-selectable note
-  of what was last chosen, so an accidental click can be identified at a
-  glance. Position setting: top of the list, bottom of the list, or the
-  centre of the wheel. Things to settle:
-  - The centre (inside the hub, beside the cursor) is always visible. The top
-    or bottom of the list scrolls out of view on long menus.
-  - Show how long ago it was ("Copy, 5 s ago"), since the same note means
-    something different a second later than an hour later.
-  - The history already records the last choice, so this is display only.
-
 ## Later
 
+- Last choice note: fade it out or hide it once it is old enough to be
+  noise.
 - Menu icons.
 - Draw owner-drawn items properly, instead of "Item N" in submenus and the
   standard menu at the top level.

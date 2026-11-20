@@ -73,6 +73,7 @@ Windhawk, which then take over again.
 | Recent choices on top | Moves your last few choices to the top |
 | Submenus | Replace, stack outward, or alternate |
 | Click on empty space | What a click inside the wheel but off any label does: choose the highlighted item, nothing, or close |
+| Show the last choice | A greyed, non-selectable note of what you last chose from a wheel and how long ago: off, top of the list, bottom of the list, or centre of the wheel |
 | Theme | Dark, light, or match Windows |
 | Use the Windows accent color | Colors the outline and highlight with your accent |
 | Tilt to spin, speed, response, dead band | How mouse movement spins the wheel |
