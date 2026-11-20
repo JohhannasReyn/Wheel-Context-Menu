@@ -100,10 +100,18 @@ menus through `TrackPopupMenu` can be added from the mod's Advanced tab in
 Windhawk. Programs that draw their own menus, such as browsers, Office and
 most Electron apps, are not affected.
 
+## Other context menu mods
+
+Mods that replace the same menus, such as Custom Cached Context Menu, hook
+the same functions. With two of them enabled, whichever hook runs first
+takes the menu, so use one at a time.
+
 ## Known limits
 
 - Menu icons are not shown.
-- Owner-drawn items that carry no readable text show as "Item N".
+- A menu whose top level has owner-drawn items with no readable text is
+  shown as the standard menu instead. Inside a submenu such items show as
+  "Item N".
 - Custom items cannot see which file was right-clicked.
 - Stacked submenus can run past the screen edge when a menu is deep.
 
@@ -112,7 +120,10 @@ most Electron apps, are not affected.
 The mod hooks `TrackPopupMenu` and `TrackPopupMenuEx`. When a program asks
 for a popup menu, the mod reads the items from the menu handle, shows the
 wheel in a layered window drawn with Direct2D, and runs it on the calling
-thread until you choose or dismiss. The chosen command is then handed back
+thread until you choose or dismiss. Keys come from that thread's own message
+queue, as they do for a real menu. Mouse input comes from a low-level hook
+that lives on a small thread of its own, so a slow menu handler never holds
+up the mouse. The chosen command is then handed back
 exactly as the real menu would have returned it. Submenus are read only when
 you enter them, after their owner has been told they are about to open, so
 lazily filled menus such as "Open with" work.
