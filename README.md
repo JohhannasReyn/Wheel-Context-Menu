@@ -8,6 +8,8 @@ bottom of the arc.
 The wheel can be spun, scrolled, typed into and rearranged, and it remembers
 what you chose last.
 
+![Wheel Context Menu in use](images/demo.gif)
+
 ## Install
 
 **From Windhawk** (once the mod is in the catalog): search for
