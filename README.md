@@ -100,7 +100,8 @@ example with the "Classic context menu on Windows 11" mod.
 Only `explorer.exe` is targeted by default. Any program that shows classic
 menus through `TrackPopupMenu` can be added from the mod's Advanced tab in
 Windhawk. Programs that draw their own menus, such as browsers, Office and
-most Electron apps, are not affected.
+most Electron apps, are not affected. A program that is not per-monitor DPI
+aware may misjudge clicks on a scaled display.
 
 ## Other context menu mods
 
