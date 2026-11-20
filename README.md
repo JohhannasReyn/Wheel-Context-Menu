@@ -30,8 +30,8 @@ It needs Windows 10 or 11 and targets `explorer.exe` by default.
 
 | Action | Result |
 |---|---|
-| Move above or below the centre band | Spin the wheel; further out is faster |
 | Scroll inside the wheel | Step one item |
+| Move above or below the centre band | With "Tilt to spin" turned on, spins the wheel; further out is faster |
 | Scroll outside the wheel | Dismiss |
 | Click a label | Choose it |
 | Click on empty space inside the wheel | Choose the highlighted item (can be set to do nothing, or to close the wheel) |
@@ -76,7 +76,7 @@ Windhawk, which then take over again.
 | Show the last choice | A greyed, non-selectable note of what you last chose from a wheel and how long ago: off, top of the list, bottom of the list, or centre of the wheel |
 | Theme | Dark, light, or match Windows |
 | Use the Windows accent color | Colors the outline and highlight with your accent |
-| Tilt to spin, speed, response, dead band | How mouse movement spins the wheel |
+| Tilt to spin, speed, response, dead band | Whether and how mouse movement spins the wheel (off by default) |
 | Item spacing | Degrees between items |
 | Wrap long lists | Let long lists wrap round instead of stopping at the ends |
 | Fade out after | Seconds of no input before the wheel fades away |
