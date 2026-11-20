@@ -33,7 +33,8 @@ It needs Windows 10 or 11 and targets `explorer.exe` by default.
 | Move above or below the centre band | Spin the wheel; further out is faster |
 | Scroll inside the wheel | Step one item |
 | Scroll outside the wheel | Dismiss |
-| Click | Choose the highlighted item |
+| Click a label | Choose it |
+| Click on empty space inside the wheel | Choose the highlighted item (can be set to do nothing, or to close the wheel) |
 | Click outside the wheel | Dismiss |
 | Press and pull a label | Rearrange; the order is remembered for that menu |
 | Right-click inside the wheel | Open the standard menu |
@@ -71,6 +72,7 @@ Windhawk, which then take over again.
 | Opens on | Item highlighted on open: first, last choice, or Paste after Cut/Copy |
 | Recent choices on top | Moves your last few choices to the top |
 | Submenus | Replace, stack outward, or alternate |
+| Click on empty space | What a click inside the wheel but off any label does: choose the highlighted item, nothing, or close |
 | Theme | Dark, light, or match Windows |
 | Use the Windows accent color | Colors the outline and highlight with your accent |
 | Tilt to spin, speed, response, dead band | How mouse movement spins the wheel |
