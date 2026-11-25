@@ -34,7 +34,7 @@ It needs Windows 10 or 11 and targets `explorer.exe` by default.
 | Move above or below the centre band | With "Tilt to spin" turned on, spins the wheel; further out is faster |
 | Scroll outside the wheel | Dismiss |
 | Click a label | Choose it |
-| Click on empty space inside the wheel | Choose the highlighted item (can be set to do nothing, or to close the wheel) |
+| Click on empty space inside the wheel | Choose the highlighted item (can be set to do nothing, close the menu, or go back out of a submenu) |
 | Click outside the wheel | Dismiss |
 | Press and pull a label | Rearrange; the order is remembered for that menu |
 | Right-click inside the wheel | Open the standard menu |
@@ -62,17 +62,18 @@ Submenus can be shown three ways:
 ## Settings
 
 Everything can be set on the mod's Settings tab in Windhawk. Most of it can
-also be changed on the spot from **Wheel options**, the last entry in the
-wheel. A choice made there holds until you next change the mod's settings in
+also be changed on the spot from **Menu options**, the last entry in the
+menu. A choice made there holds until you next change the mod's settings in
 Windhawk, which then take over again.
 
 | Setting | What it does |
 |---|---|
+| Shape | The wheel, a regular list in a box, or a sliding list (the wheel straightened into a column). All three keep every feature |
 | Opens toward | Side the arc opens on; it flips by itself at a screen edge |
 | Opens on | Item highlighted on open: first, last choice, or Paste after Cut/Copy |
 | Recent choices on top | Moves your last few choices to the top |
 | Submenus | Replace, stack outward, or alternate |
-| Click on empty space | What a click inside the wheel but off any label does: choose the highlighted item, nothing, or close |
+| Click on empty space | What a click inside the wheel but off any label does: choose the highlighted item, nothing, close, or go back |
 | Show the last choice | A greyed, non-selectable note of what you last chose from a wheel and how long ago: off, top of the list, bottom of the list, or centre of the wheel |
 | Theme | Dark, light, or match Windows |
 | Use the Windows accent color | Colors the outline and highlight with your accent |
