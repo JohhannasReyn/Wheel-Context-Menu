@@ -6,7 +6,7 @@ Ideas and known gaps that are not in the current release.
 
 - Last choice note: fade it out or hide it once it is old enough to be
   noise.
-- Menu icons.
+- Icons that a program draws itself (owner-drawn).
 - Draw owner-drawn items properly, instead of "Item N" in submenus and the
   standard menu at the top level.
 - Saved orders: reuse an order when only a file name in a label differs

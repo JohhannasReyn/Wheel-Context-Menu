@@ -78,7 +78,9 @@ Windhawk, which then take over again.
 | Theme | Dark, light, or match Windows |
 | Use the Windows accent color | Colors the outline and highlight with your accent |
 | Tilt to spin, speed, response, dead band | Whether and how mouse movement spins the wheel (off by default) |
-| Item spacing | Degrees between items |
+| Item spacing | Degrees between items in the wheel; row height in the list shapes |
+| Text size | Size of the menu text; the rest of the menu scales with it |
+| Show menu icons | Shows the icons the menu's own items carry |
 | Wrap long lists | Let long lists wrap round instead of stopping at the ends |
 | Fade out after | Seconds of no input before the wheel fades away |
 | Label and edge opacity | How solid the labels are at the centre and toward the ends |
@@ -113,7 +115,7 @@ takes the menu, so use one at a time.
 
 ## Known limits
 
-- Menu icons are not shown.
+- Icons that a program draws itself (owner-drawn) are not shown.
 - A menu whose top level has owner-drawn items with no readable text is
   shown as the standard menu instead. Inside a submenu such items show as
   "Item N".
